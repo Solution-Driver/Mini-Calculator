@@ -29,8 +29,12 @@ function inputValue(value) {
 
 function solution() {
   try {
+    //Evaluate the expression
     output.value = eval(output.value);
+
+    // Display the rounded result
     finalResult = output.value;
+    
   } catch (error) {
     output.value = "Error";
   }
