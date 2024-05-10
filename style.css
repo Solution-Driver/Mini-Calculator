@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Digital";
+  src: url("./fonts/Digital\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "Akrobat";
+  src: url("./fonts/Akrobat-Black.otf");
+}
+
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.calculator {
+  width: 418px;
+  height: 100%;
+  margin: 100px auto;
+  background-color: #5d5e62;
+  padding: 35px;
+  border-radius: 40px;
+  border-bottom: solid #52535a 30px;
+}
+
+.calculator table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calculator table td {
+  padding: 7px;
+  text-align: center;
+}
+
+.calculator input[type="text"] {
+  width: 88%;
+  height: 75px;
+  padding: 20px 20px 0px;
+  margin: 15px 3px 35px;
+  font-size: 5em;
+  font-weight: 500;
+  font-family: Digital;
+  text-align: right;
+  vertical-align: bottom;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-bottom: solid #c4cad4 20px;
+  background-color: #cfd6e1;
+}
+
+.calculator button {
+  width: 100%;
+  padding: 0px 25px;
+  font-size: 4.5em;
+  border-width: 0;
+  font-family: Akrobat;
+  border-bottom: solid #e3e3e3 8px;
+  border-right: solid #e3e3e3 4px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 1000;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calculator button.equal {
+  background-color: #f79632;
+  border-bottom: solid #f1861c 8px;
+  border-right: solid #f1861c 4px;
+}
