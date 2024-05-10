@@ -52,7 +52,7 @@ body {
 .calculator button {
   width: 100%;
   padding: 0px 25px;
-  font-size: 4.5em;
+  font-size: 4em;
   border-width: 0;
   font-family: Akrobat;
   border-bottom: solid #e3e3e3 8px;
